@@ -7,11 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo">
-            <img src="" alt="Logo">
-            <h2></h2>
-        </div>
-    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#"></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+            <button></button>
+        </nav>
+    </header>
 </body>
 </html>
