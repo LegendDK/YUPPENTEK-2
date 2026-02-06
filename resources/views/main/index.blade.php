@@ -39,7 +39,35 @@
                 <figure class="hero-image">
                     <img src="{{ asset('images/sushi_mid.png') }}" alt="hero-image">
                 </figure>
+<<<<<<< HEAD
         </section> 
+=======
+            </article>
+        </section>
+        <section id="ourbestcollections">
+            <div class="kolom">
+                <h2>Our Best Collections</h2>
+                <p>
+                    Dari resep klasik hingga kreasi modern, temukan rasa yang paling sesuai dengan selera Anda.
+                </p>
+            </div>
+            <div class="card-list">
+                <div class="card-collections">
+                    <h3>Signature rolls</h3>
+                    <p>Perpaduan rasa unik dan tekstur kontemporer yang menjadi favorit pelanggan tetap kami.</p>
+                </div>
+                <div class="card-collections">
+                    <h3>Authentic Nigiri</h3>
+                    <p>Keharmonisan sempurna antara kesegaran topping dan nasi yang di lakukan dengan tangan.</p>
+                </div><div class="card-collections">
+                    <h3>Raw Sashimi</h3>
+                    <p>Potongan ikan murni yang lembut dan manis, menonjolkan kualitas bahan tanpa tambahan.</p>
+                </div><div class="card-collections">
+                    <h3>Warm Sides</h3>
+                    <p>Lengkapi santapan Anda dengan aneka hidangan pendamping mulai dari Ramen hingga Gyoza</p>
+                </div>
+            </div>
+>>>>>>> 86d413cbbec5c152c434693849973386c4ca9dd5
 
         <section class="hero-section-2">
             <head class="text-hero-1">
@@ -51,6 +79,7 @@
                     <head></head>
                 </div>
             </section>
+
         </section>
     </main>
 </body>
