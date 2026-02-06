@@ -8,7 +8,10 @@
 </head>
 <body>
     <div class="navbar">
-        
+        <div class="logo">
+            <img src="" alt="Logo">
+            <h2></h2>
+        </div>
     </div>
 </body>
 </html>

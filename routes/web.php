@@ -13,11 +13,7 @@ use App\Http\Controllers\LoginController;
 |
 */
 
-<<<<<<< HEAD
-Route::get('/login', [LoginController::class, 'login'])->name('login');
-=======
 Route::get('/login', [LoginController::class, 'index'])->name('login');
->>>>>>> 35fde92bb899e718d8511aee412836d4901702a8
 Route::post('/login', [LoginController::class, 'login']);
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
