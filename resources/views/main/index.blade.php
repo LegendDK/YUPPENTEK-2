@@ -12,7 +12,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="" alt="">
+                <img src="{{ asset('') }}" alt="logo-branch">
             </div>
             <ul class="nav-links">
                 <li><a href="#">awdaw</a></li>
@@ -21,14 +21,10 @@
                 <li><a href="#">dwwdada</a></li>
                 <li><a href="#">dwada</a></li>
                 <li><a href="#">adaw</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
             </ul>
-                <button>Subscription</button>
-            <span class="material-symbols-outlined">menu</span>
         </nav>
+        <button>Subscription</button>
+        <span class="material-symbols-outlined">menu</span>
     </header>
     <main>
         <section>

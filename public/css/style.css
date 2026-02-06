@@ -8,12 +8,16 @@
     --primary-color : #272e3f; 
     --secunder-color : #272e3f; 
     --primary-text : white;
+    --primary-btn : ;
 }
 
 /* navbar */
 header{
+    display: flex;
+    align-items: center;
     background-color: var(--primary-color);
-    padding: 25px 50%;
+    padding: 2% 25px;
+    gap: 20px;
 }
 
 nav{
@@ -27,6 +31,7 @@ nav span{
 
 .nav-links{
     display: flex;
+    align-items: center;
     gap: 10px;
     list-style: none;
 }
@@ -38,6 +43,8 @@ nav span{
 
 /* elementy-list */
 button{
-    
+    cursor: pointer;
+    background-color: aqua;
     border-radius: 20px;
+    padding: 10px;
 }
