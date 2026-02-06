@@ -42,7 +42,7 @@
                 </figure>
             </article>
         </section>
-        <section id="ourcae">
+        <section id="ourbestcollections">
             <div class="kolom">
                 <h2>Our Best Collections</h2>
                 <p>
