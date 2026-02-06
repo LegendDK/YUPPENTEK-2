@@ -240,3 +240,20 @@ button{
 .kolom h2{
 
 }
+
+.footer-sushi{
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.footer-content{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}

@@ -93,6 +93,23 @@
             </section>
 
         </section>
+
     </main>
+            <footer class="footer-sushi">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <h2 class="footer-logo">May <span>Hush Modern Restaurant</span></h2>
+                    <p>menyajikan kebahagiaan lewat setaip potongan sushi autentik dengan bahan premium sejak 2024</p>
+                </div>
+                <div class="footer-content">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Email: hushmodernrestaurant@gmail.com</a></li>
+                        <li><a href="#">Phone: +62 812 3456 7890</a></li>
+                        <li><a href="#">Address: Jl. Sushi No. 123, Jakarta</a></li>
+                    </ul>
+                
+            </div>
+        </footer>
 </body>
 </html
