@@ -35,7 +35,7 @@
                 @enderror
             </div>
             <button type="submit" class="btn-login">Login</button>
-            {{-- <p><a href="{{ Route('register') }}">Belum punya akun? Daftar disini</a></p> --}}
+            <p><a href="{{ Route('register') }}">Belum punya akun? Daftar disini</a></p>
         </form>
     </div>
 </body>
