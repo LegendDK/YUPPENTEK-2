@@ -10,10 +10,10 @@
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="{{ asset('') }}" alt="logo-branch">
+        </div>
         <nav>
-            <div class="logo">
-                <img src="{{ asset('') }}" alt="logo-branch">
-            </div>
             <ul class="nav-links">
                 <li><a href="#">awdaw</a></li>
                 <li><a href="#">adwada</a></li>
@@ -27,8 +27,7 @@
         <span class="material-symbols-outlined">menu</span>
     </header>
     <main>
-        <section>
-            <article class="hero-section" id="home">
+        <section  class="hero-section">
                 <head class="hero-text">
                     <h1>Hush Modern Restauirant</h1>
                     <p>
@@ -38,10 +37,9 @@
                     <button>Subscription</button>
                 </head>
                 <figure class="hero-image">
-                    <img src="" alt="">
+                    <img src="{{ asset('images/sushi_mid.png') }}" alt="hero-image">
                 </figure>
-            </article>
-        </section>
+        </section> 
 
         <section class="hero-section-2">
             <head class="text-hero-1">
