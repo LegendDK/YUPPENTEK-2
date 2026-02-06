@@ -7,6 +7,36 @@
 :root{
     --primary-color : #272e3f; 
     --secunder-color : #272e3f; 
-
+    --primary-text : white;
 }
 
+/* navbar */
+header{
+    background-color: var(--primary-color);
+    padding: 25px 50%;
+}
+
+nav{
+    display: flex;
+    margin: 12 auto;
+}
+
+nav span{
+    color: var(--primary-text);
+}
+
+.nav-links{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: var(--primary-text);
+}
+
+/* elementy-list */
+button{
+    border-radius: 20px;
+}
