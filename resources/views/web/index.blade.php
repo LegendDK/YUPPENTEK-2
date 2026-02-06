@@ -29,14 +29,21 @@
     </header>
     <main>
         <section>
-            <article>
+            <article class="hero-section" id="home">
                 <h1>Hush Modern Restauirant</h1>
                 <p>
                     Hush Modern Restaurant menghadirkan suasana modern yang elegan dan tenang, cocok untuk menikmati momen istimewa di tengah kesibukan kota. Desain minimalis yang hangat menciptakan pengalaman bersantap yang nyaman dan berkelas.
                     Setiap hidangan disajikan dengan bahan pilihan dan sentuhan kreativitas modern, menghasilkan cita rasa yang khas dan berkesan. Di Hush, setiap kunjungan terasa istimewa.
                 </p>
-                <button>Subr</button>
+                <button>Subscription</button>
             </article>
+            <figure class="hero-image">
+                <img src="" alt="">
+            </figure>
+        </section>
+
+        <section>
+            
         </section>
     </main>
 </body>
