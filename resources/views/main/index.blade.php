@@ -37,11 +37,9 @@
                     <button>Subscription</button>
                 </head>
                 <figure class="hero-image">
-                    <img src="{{ asset('images/sushi_mid.png') }}" alt="hero-image">
+                    <img src="{{ asset('images/sushi_header.jpg') }}" alt="hero-image">
                 </figure>
-<<<<<<< HEAD
         </section> 
-=======
             </article>
         </section>
         <section id="ourbestcollections">
@@ -67,7 +65,6 @@
                     <p>Lengkapi santapan Anda dengan aneka hidangan pendamping mulai dari Ramen hingga Gyoza</p>
                 </div>
             </div>
->>>>>>> 86d413cbbec5c152c434693849973386c4ca9dd5
 
         <section class="hero-section-2">
             <head class="text-hero-1">
