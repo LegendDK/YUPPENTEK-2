@@ -51,22 +51,29 @@
             </div>
             <div class="card-list">
                 <div class="card-collections">
+                    <img src="{{ asset('images/signature_rolls.png') }}" alt="signature-rolls" style="width:100%; height:250px; object-fit:cover; border-radius:8px;">
                     <h3>Signature rolls</h3>
                     <h4>Varian Standar : Rp. 45.000 - Rp 75.000 per roll.</h4>
                     <h4>Varian Premium : Rp. 85.000 - Rp 150.000 per roll.</h4>
                     <p>Perpaduan rasa unik dan tekstur kontemporer yang menjadi favorit pelanggan tetap kami.</p>
                 </div>
                 <div class="card-collections">
+                    <img src="{{ asset('images/sushi_product5.jpg') }}" alt="signature-rolls" style="width:100%; height:250px; object-fit:cover; border-radius:8px;">
+                    
                     <h3>Authentic Nigiri</h3>
                     <h4>Varian Standar : Rp. 9.000 - Rp 15.000 per potong.</h4>
                     <h4>Varian Premium : Rp. 18.000 - Rp 25.000 per potong.</h4>
                     <p>Keharmonisan sempurna antara kesegaran topping dan nasi yang di lakukan dengan tangan.</p>
                 </div><div class="card-collections">
+                    <img src="{{ asset('images/sushi_product4.jpg') }}" alt="signature-rolls" style="width:100%; height:250px; object-fit:cover; border-radius:8px;">
+                    
                     <h3>Raw Sashimi</h3>
                     <h4>Porsi Personal/kecil : Rp 35.000 - Rp 50.000.</h4>
                     <h4>Porsi Shading/Medium : Rp 75.000 - Rp 120.000.</h4>
                     <p>Potongan ikan murni yang lembut dan manis, menonjolkan kualitas bahan tanpa tambahan.</p>
                 </div><div class="card-collections">
+                    <img src="{{ asset('images/sushi_product1.jpg') }}" alt="signature-rolls" style="width:100%; height:250px; object-fit:cover; border-radius:8px;">
+                    
                     <h3>Warm Sides</h3>
                     <h4>Edamame Rebus/Garam : Rp 15.000 - Rp 22.000.</h4>
                     <h4>Gyoza Isi Ayam : Rp 25.000 - Rp 35.000 (6 pcs).</h4>
