@@ -14,17 +14,30 @@
             </div>
             <ul class="nav-links">
                 <li><a href="#"></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
             </ul>
             <button></button>
         </nav>
     </header>
+    <main>
+        <section>
+            <article>
+                <h1>Hush Modern Restauirant</h1>
+                <p>
+                    Hush Modern Restaurant menghadirkan suasana modern yang elegan dan tenang, cocok untuk menikmati momen istimewa di tengah kesibukan kota. Desain minimalis yang hangat menciptakan pengalaman bersantap yang nyaman dan berkelas.
+                    Setiap hidangan disajikan dengan bahan pilihan dan sentuhan kreativitas modern, menghasilkan cita rasa yang khas dan berkesan. Di Hush, setiap kunjungan terasa istimewa.
+                </p>
+                <button>Subr</button>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
