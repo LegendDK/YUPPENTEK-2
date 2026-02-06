@@ -79,19 +79,17 @@
                 </div>
             </div>
 
-            
+
 
         <section class="hero-section-2">
             <head class="text-hero-1">
                 <h1>About Us</h1>
-                <p>Berawal dari kecintaan kami pada cita rasa autentik Jepang, Hush Modern Restaurant hadir untuk memberikan pengalaman kuliner yang tak terlupakan. Kami mengutamakan kualitas bahan terbaik dan teknik memasak tradisional yang dipadukan dengan sentuhan modern. Because you deserve the best sushi experience!</p>
+                <p style="text-size: 100px">Berawal dari kecintaan kami pada cita rasa autentik Jepang, Hush Modern Restaurant hadir untuk memberikan pengalaman kuliner yang tak terlupakan. Kami mengutamakan kualitas bahan terbaik dan teknik memasak tradisional yang dipadukan dengan sentuhan modern. Because you deserve the best sushi experience!</p>
             </head>
-            <section class="container-card">
-                <div class="card">
-                    <head></head>
-                </div>
-            </section>
-
+            <figure>
+                <img src="{{asset('images/sushi_header.jpg')}}" alt="susi">
+                <img src="{{asset('images/sushi_product5.jpg')}}" alt="susi">
+            </figure>
         </section>
 
     </main>
