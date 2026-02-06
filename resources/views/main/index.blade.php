@@ -49,7 +49,6 @@
                 <h2>Our Best Collections</h2>
                 <p>
                     Dari resep klasik hingga kreasi modern, temukan rasa yang paling sesuai dengan selera Anda.
-
                 </p>
             </div>
             <div class="card-list">
@@ -79,7 +78,7 @@
                     <head></head>
                 </div>
             </section>
-            
+
         </section>
     </main>
 </body>
