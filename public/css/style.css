@@ -7,6 +7,44 @@
 :root{
     --primary-color : #272e3f; 
     --secunder-color : #272e3f; 
-
+    --primary-text : white;
+    --primary-btn : ;
 }
 
+/* navbar */
+header{
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 2% 25px;
+    gap: 20px;
+}
+
+nav{
+    display: flex;
+    margin: 12 auto;
+}
+
+nav span{
+    color: var(--primary-text);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: var(--primary-text);
+}
+
+/* elementy-list */
+button{
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
+}

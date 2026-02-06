@@ -25,11 +25,11 @@ class LoginController extends Controller
             Auth::login($user);
 
             if($user->role == 'admin'){
-                return redirect('/index');
+                return redirect('/user');
             }else if($user->role === 'member'){
-                return redirect('/index');
+                return redirect('/user');
             }else{
-                return redirect('/index');
+                return redirect('/user');
             }
         }
         return back()->withErrors(['email' => 'Email/Password Tidak Sesuai']);
@@ -38,5 +38,9 @@ class LoginController extends Controller
     function logout(){
         Auth::logout();
         return redirect('/login');
+    }
+
+    function inreg(){
+        return view('register.index');
     }
 }
