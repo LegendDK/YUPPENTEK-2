@@ -52,7 +52,7 @@
                 </label>
             </div>
             <button type="submit" class="btn-login">Register</button>
-            <p><a href="{{ Route('login') }}">Sudah punya akun? Login disini</a></p>
+            <p>Sudah punya akun?<a href="{{ Route('login') }}">Login disini</a></p>
         </form>
     </div>
 </body>
