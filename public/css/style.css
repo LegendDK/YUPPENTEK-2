@@ -204,3 +204,21 @@ button{
     border-radius: 50%;
     object-fit: cover;
 }
+
+
+.card-list{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin : 0 auto;
+}
+.card-collections{
+    background-color: var(--secunder-color);
+    color: var(--primary-text);
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
