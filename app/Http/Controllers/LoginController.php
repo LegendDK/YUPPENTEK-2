@@ -28,7 +28,7 @@ class LoginController extends Controller
                 return redirect('/admin');
             }else if($user->role === 'member'){
                 return redirect('/member');
-            }else if($user->role === 'guest'){
+            }else{
                 return redirect('/guest');
             }
         }
