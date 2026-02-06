@@ -25,7 +25,17 @@ class LoginController extends Controller
 
             if($user->role == 'admin'){
                 return redirect('/admin');
+            }else if($user->role === 'member'){
+                return redirect('/member');
+            }else if($user->role === 'guest'){
+                return redirect('/guest');
             }
         }
+        return back()->withErrors(['email' => 'Email/Password Tidak Sesuai']);
+    }
+
+    function logout(){
+        Auth::logout();
+        return redirect('/login');
     }
 }
