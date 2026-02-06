@@ -11,36 +11,33 @@
 <body>
     <header>
         <div class="logo">
-            <img src="{{ asset('') }}" alt="logo-branch">
+            <img src="{{ asset('images/profil.png') }}" alt="logo-branch">
+            <h2>SusiTuna</h2>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#">awdaw</a></li>
-                <li><a href="#">adwada</a></li>
-                <li><a href="#">wadawd</a></li>
-                <li><a href="#">dwwdada</a></li>
-                <li><a href="#">dwada</a></li>
-                <li><a href="#">adaw</a></li>
-            </ul>
-        </nav>
-        <button>Subscription</button>
-        <span class="material-symbols-outlined">menu</span>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <button>Order Now</button>
+                </ul>
+            </nav>
     </header>
     <main>
-        <section  class="hero-section">
-                <head class="hero-text">
-                    <h1>Hush Modern Restauirant</h1>
-                    <p>
-                        Hush Modern Restaurant menghadirkan suasana modern yang elegan dan tenang, cocok untuk menikmati momen istimewa di tengah kesibukan kota. Desain minimalis yang hangat menciptakan pengalaman bersantap yang nyaman dan berkelas.
-                        Setiap hidangan disajikan dengan bahan pilihan dan sentuhan kreativitas modern, menghasilkan cita rasa yang khas dan berkesan. Di Hush, setiap kunjungan terasa istimewa.
-                    </p>
-                    <button>Subscription</button>
-                </head>
-                <figure class="hero-image">
-                    <img src="{{ asset('images/sushi_header.jpg') }}" alt="hero-image">
-                </figure>
-        </section> 
-            </article>
+        <section class="hero-section">
+            <div class="hero-text">
+                <h1>Hush Modern Restaurant</h1>
+                <p>
+                    Hush Modern Restaurant menghadirkan suasana modern yang elegan dan tenang, cocok untuk menikmati momen istimewa di tengah kesibukan kota. Desain minimalis yang hangat menciptakan pengalaman bersantap yang nyaman dan berkelas.
+                    Setiap hidangan disajikan dengan bahan pilihan dan sentuhan kreativitas modern, menghasilkan cita rasa yang khas dan berkesan. Di Hush, setiap kunjungan terasa istimewa.
+                </p>
+                <button>Order Now</button>
+            </div>
+        
+            <figure class="hero-image">
+                <img src="{{ asset('images/sushi_mid.png') }}" alt="hero image">
+            </figure>
         </section>
         <section id="ourbestcollections">
             <div class="kolom">
