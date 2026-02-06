@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Digital Marketing</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 </head>
 <body>
     <header>
@@ -13,19 +15,19 @@
                 <img src="" alt="">
             </div>
             <ul class="nav-links">
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#">awdaw</a></li>
+                <li><a href="#">adwada</a></li>
+                <li><a href="#">wadawd</a></li>
+                <li><a href="#">dwwdada</a></li>
+                <li><a href="#">dwada</a></li>
+                <li><a href="#">adaw</a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
             </ul>
-            <button></button>
-            <span></span>
+                <button>Subscription</button>
+            <span class="material-symbols-outlined">menu</span>
         </nav>
     </header>
     <main>
