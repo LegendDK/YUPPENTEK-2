@@ -79,6 +79,8 @@
                 </div>
             </div>
 
+            
+
         <section class="hero-section-2">
             <head class="text-hero-1">
                 <h1>Cudur Home</h1>
