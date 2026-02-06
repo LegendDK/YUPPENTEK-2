@@ -18,5 +18,5 @@ Route::post('/login', [LoginController::class, 'login']);
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
 Route::get('/index', function(){
-    return view('web.index');
+    return view('main.index');
 });
