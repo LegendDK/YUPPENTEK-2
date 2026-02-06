@@ -25,11 +25,11 @@ class LoginController extends Controller
             Auth::login($user);
 
             if($user->role == 'admin'){
-                return redirect('/admin');
+                return redirect('/index');
             }else if($user->role === 'member'){
-                return redirect('/member');
+                return redirect('/index');
             }else{
-                return redirect('/guest');
+                return redirect('/index');
             }
         }
         return back()->withErrors(['email' => 'Email/Password Tidak Sesuai']);
