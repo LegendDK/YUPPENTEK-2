@@ -238,5 +238,46 @@ button{
 }
 
 .kolom h2{
+    
+}
 
+.hero-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 50vh;
+    background-color: #0f131a;
+    color: white;
+    margin-top: 90px;
+    padding: 100px;
+}
+
+.text-hero-1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+    gap: 1.5rem;
+}
+
+figure{
+}
+
+figure img{
+    width: 500px;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 740px) {
+    .hero-image{
+        display: none;
+    }
+
+    figure{
+        margin-top: 50px;
+    }
 }
